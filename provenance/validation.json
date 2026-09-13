@@ -1,0 +1,15 @@
+{
+  "notebook_cells": 23,
+  "stages": 12,
+  "runtime_files_verified": 31,
+  "citation_count": 15,
+  "source_equivalence_after_portability_adaptation": true,
+  "adaptation_scope": "comments outside functions plus storage-root and timeline-folder literals",
+  "offline_summary_executed": true,
+  "jupyter_frontend_executed": false,
+  "altered_source_rejected": true,
+  "gpu_execution_performed": false,
+  "original_drive_artifacts_rehashed": false,
+  "paper_static_checks": "passed",
+  "sign_tests_recomputed": true
+}

@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.pdf binary
+*.ipynb text eol=lf
+*.json text eol=lf

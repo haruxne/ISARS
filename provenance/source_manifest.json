@@ -1,0 +1,112 @@
+{
+  "source_commit": "ab526c50f491bae440ea697fca72adcb10c687f3",
+  "runtime_sha256": "2b51b72c54d202516ccd2cd60c2f28e955db57c3e0ed8859e3f10589618339d6",
+  "runtime_files": {
+    "src/__init__.py": "58361356358f284c7d384e9f76efc6eb2713118fe3a8c4137bfcf79d4b4e2f6c",
+    "src/aic_review.py": "00d9b19555c728f12447351efd4f3b65566515edcf1fd66fe46f49a07cf61fc2",
+    "src/annotations.py": "13081b5e4564d793a509c389ede1d117cfd06316aed3104fab27c658c5e00d98",
+    "src/attacks.py": "28efcdce9dd860048420b1200d39ff6765e3fb9ea437ededa5f364171875c02e",
+    "src/batch_a_finalization.py": "fcead50db841a65105d9768adb7871fa5590a5e2520add391c068d297b08f5c0",
+    "src/batch_a_promotion.py": "ee2c979bdde087d53d5b207773997bcb84af56e05694b2ddf63145df7881913d",
+    "src/batch_a_queries.py": "f1d33ebe32fdb7eb84a8acf8704a8efcde891992e9da691d727c6c8f4fb0ca22",
+    "src/clean_runner.py": "186b98ce61453f24e84c1092ca497f44bfdbb0d0f44aea31811e5b7e8dc214b5",
+    "src/clip_windows.py": "83fdd689b06cf48c21865b3ddbf48fa3949244a9f9bb1e640eb08834de928899",
+    "src/compression.py": "705396e6a43b7b9ed62fb716dc32b82c918073d0efa514c724ff1b08b222ad49",
+    "src/contact_sheet.py": "dc0702e7e19284b0e04387cbe6a23ca1cb11ca4cebb8c6e0da37824fae67a6f2",
+    "src/core_experiment_plan.py": "aa36e943fa4a735ac787f9b6eef1769425ba7c9a9d825876b2e6a36eb9a8ae58",
+    "src/dataset_manifest.py": "af095d1eddc747b6f9b64cbb48033c61d181aa086b0903275ea14b438359f38d",
+    "src/dataset_repair.py": "1a3d07c7fe6d65f04e3967001215b007cb848244597b1bd29a0ca336a8e25da2",
+    "src/embedding_cache.py": "681ce0101b20fb0b19a6dafd3dd7cba88a7dcefd6221fc617abd6325db69db1f",
+    "src/experiment_runner.py": "8b6f81d6fa75d72bc1f3d5d11ae2d073d4dd0ddadf6980f181c198ee66a81220",
+    "src/frame_cache_builder.py": "a3da4310cca39dbe61a38380ee2d9d63338dd49526db3f7acc4c19b0751ab148",
+    "src/frame_cache_migration.py": "e822e63b0057599b27bfcc09e8d9d23cbf1939d65f8d1cd1f2d4ce0de02e0313",
+    "src/metrics.py": "795e1b7f32b1de4c8665d1a0be5082883242a0300b085cb30c073d2515cbc5b0",
+    "src/openclip_siglip.py": "6e60773204819c2e09c2e4d5c2f0599e2e264acc3d76894f5acfc4a12787f0bc",
+    "src/organizer_queries.py": "4bb9dc216645dc5efae71a8810d62887e0fd70e8d6818cfac1a0e988b744ac6e",
+    "src/organizer_targets.py": "26d337de02e74ec73c4530a449fbe365ca0da9a7ba38312c219676f95ca91638",
+    "src/paper_results.py": "dc8a9189bbef702b0601f5628fc5271e89d9e72cae13d4788b0b2c1f3a6f1f64",
+    "src/query_representation.py": "d0903bfbffbeab91c877059fb0e50b77019f229c4a5213d9600fd94524ffe11b",
+    "src/replacement_pool.py": "1c748c2ad9d16ed3794740b3c4396ec6e1b78b3f893e620822d216f7b6cf7c72",
+    "src/result_authority.py": "db8b8ac87416008578c17cbc6c4fa43b060c30a4370b6de5f248ef3e1faa0060",
+    "src/retrieval.py": "bafb8d24033b4ba8fafeeb68a9dc842c4e62a8d499685282df9a66f97eea9b96",
+    "src/splits.py": "a55b891b3888d40e3dab5974b118ef91ebfcad1f0df7951bae277f00b56e8031",
+    "src/statistics.py": "613c0efd6a1457c40e7426a7bcbd087a9f89324395f909deed01f5e2435719ef",
+    "src/temporal_isolation.py": "4db318e74044b16bc0d8215f1d52544efb0d3739369c082cdca8db251725b6b6",
+    "src/uniqueness_gate.py": "d216840db052eec0f8da7f59be6c41b8c8137ac5a48bc2b8c52efb732b2f0125"
+  },
+  "stages": {
+    "AG30": {
+      "original_file": "docs/AG30_ORGANIZER58_DEV10_TEST48_SPLIT_LOCK_COLAB.py",
+      "original_sha256": "8e6b74fd55916554d845eb9a7eaee547c953dee7b72b0c3a54376ad439fca314",
+      "notebook_source_sha256": "4fc87dd68d140b2cc267de654e668a1687be68672614b1c9a9f60cd29d42dedd",
+      "adaptation": "comments removed outside functions; storage roots and timeline folders replaced by semantic aliases"
+    },
+    "AG32": {
+      "original_file": "docs/AG32_TEST48_PROMPT_CENTROID_EXPANSION_COLAB.py",
+      "original_sha256": "53939a81dc6f1c4f87b864fff0f0657b8da6a5f3a73a26ca432d70868c58f53d",
+      "notebook_source_sha256": "758117498a9e7ff74bce65946843acb8243b82c5a8ba7aba3053b78c62443323",
+      "adaptation": "comments removed outside functions; storage roots and timeline folders replaced by semantic aliases"
+    },
+    "AG33": {
+      "original_file": "docs/AG33_TEST48_REGION_SELECTION_COLAB.py",
+      "original_sha256": "635d9a3965645fd7bebb48c152cbcf9c430ccdc887537bc872ce5aa768590858",
+      "notebook_source_sha256": "af9f026e2433051f8db55f1219a9b93a2bcc7a35645a9e772a48601982d3341f",
+      "adaptation": "comments removed outside functions; storage roots and timeline folders replaced by semantic aliases"
+    },
+    "AG34": {
+      "original_file": "docs/AG34_TEST48_FINAL_PRE_EVALUATION_LOCK_COLAB.py",
+      "original_sha256": "4434e3f62007544fdaaa24c52182b7b2b2b97a4e0455418d11585f25662169f1",
+      "notebook_source_sha256": "9974cde982cbafb86f4e8b7cfa7ccdaf3fbdc91d04df78d37f8e1e4e7f4154c7",
+      "adaptation": "comments removed outside functions; storage roots and timeline folders replaced by semantic aliases"
+    },
+    "AG35": {
+      "original_file": "docs/AG35_FINAL_TEST48_REGION_EVALUATION_COLAB.py",
+      "original_sha256": "e9efa53717caba2bcba18a2e2b6ff5d116ffac9494c5808bee7bec34b0e7b684",
+      "notebook_source_sha256": "699d0c0c9118aefd51822499c6d891ee941a1899bd692c81aaa6ecf13808010a",
+      "adaptation": "comments removed outside functions; storage roots and timeline folders replaced by semantic aliases"
+    },
+    "AG36": {
+      "original_file": "docs/AG36_TEST48_RESULT_AUDIT_COLAB.py",
+      "original_sha256": "8646a3bac9310eecc7d893dbece45b00d9f1751c7319153314724d52e77bd506",
+      "notebook_source_sha256": "8861b6aebedfd19e10bccd139659df6a21e555a3fc822787e7bc63de8908cacb",
+      "adaptation": "comments removed outside functions; storage roots and timeline folders replaced by semantic aliases"
+    },
+    "AG37R": {
+      "original_file": "docs/AG37R_BATCH_A_TEST48_EXTENSION_LOCK_V2_COLAB.py",
+      "original_sha256": "16ef692bc5bd05ad23dc4f3fd8320f326150e33fa00420a95e63b4c294fc9974",
+      "notebook_source_sha256": "1884d0a3252ca1cf6cf11a7bd99f4c95a55cd00d45240e5da2b4a87b56e8988c",
+      "adaptation": "comments removed outside functions; storage roots and timeline folders replaced by semantic aliases"
+    },
+    "AG38": {
+      "original_file": "docs/AG38_BATCH_A_EXTENSION_PROMPT_CATALOG_LOCK_COLAB.py",
+      "original_sha256": "b3bc519aeefc4521727146b1aceaeac5d0faa3c5ff06042e6cb4741b87dcf7aa",
+      "notebook_source_sha256": "9a591b201d64ad2feb1d7568c1a26a380b5e0b0807f5b5cdd26ceeee51fd58c3",
+      "adaptation": "comments removed outside functions; storage roots and timeline folders replaced by semantic aliases"
+    },
+    "AG39": {
+      "original_file": "docs/AG39_BATCH_A_EXTENSION_REGION_SELECTION_COLAB.py",
+      "original_sha256": "804e1831e56aad01e01d6818392cf07ef9eefd73cd6dde46fdd02c52e5d8845a",
+      "notebook_source_sha256": "1d96f392aafb7020b77aae3b6fb05a4a29cc8dfd9db5e9f82331c57857e60e93",
+      "adaptation": "comments removed outside functions; storage roots and timeline folders replaced by semantic aliases"
+    },
+    "AG40": {
+      "original_file": "docs/AG40_BATCH_A_FINAL_PRE_EVALUATION_LOCK_COLAB.py",
+      "original_sha256": "4ca09712fabe5b23834c6c83a69263e3978499de0745cef43c6b5a682e7fb999",
+      "notebook_source_sha256": "e9de0b18962b82f6c309ea754047ae7ad760efcfc8bd8bbcf9aaebad0988daff",
+      "adaptation": "comments removed outside functions; storage roots and timeline folders replaced by semantic aliases"
+    },
+    "AG41": {
+      "original_file": "docs/AG41_BATCH_A_EXTENSION_GPU_EVALUATION_COLAB.py",
+      "original_sha256": "9aac6c34ede1c4aafdc136ee803f5087407f71a5bdc4cce98f4b62b24cf9a31c",
+      "notebook_source_sha256": "f6f4d7babf1cff951c518d6374d18570d5bc7349f866431f11367a11d0e68552",
+      "adaptation": "comments removed outside functions; storage roots and timeline folders replaced by semantic aliases"
+    },
+    "AG42": {
+      "original_file": "docs/AG42_BATCH_A_AND_POOLED_RESULT_AUDIT_COLAB.py",
+      "original_sha256": "cc7b98cceae7fb6b306ae9d89bf71afc9d5d45d9fc4dcfbc83a529e9c91df0b2",
+      "notebook_source_sha256": "c7b8d77e08c9eb401745a93622fd06185a9fe6c3aaa23e565123cc250763b0b9",
+      "adaptation": "comments removed outside functions; storage roots and timeline folders replaced by semantic aliases"
+    }
+  },
+  "notebook_sha256": "26a0d4f563e446709676452f304f2506073b2450129f3fc3ce60f8bd9d4ed036"
+}

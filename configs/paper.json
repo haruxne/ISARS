@@ -1,0 +1,18 @@
+{
+  "window_size": 16,
+  "stride": 1,
+  "attack": {
+    "epsilon": 0.03137254901960784,
+    "alpha": 0.00784313725490196,
+    "steps": 15,
+    "lambda_first_order": 0.5,
+    "lambda_second_order": 0.1,
+    "random_start": true,
+    "seed": 20260911
+  },
+  "selection_strategies": [
+    "target_centered",
+    "highest_score_window",
+    "minimum_unaffected_floor"
+  ]
+}
