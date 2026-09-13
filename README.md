@@ -10,9 +10,8 @@ then optimized with the same query-conditioned PGD budget used by the matched ba
 ## Repository layout
 
 ```text
-configs/          Paper configuration
+configs/          Reported experiment configuration
 examples/         Small input example for interval selection
-paper/            Manuscript source, bibliography, and figures
 provenance/       Historical pipeline and integrity manifests
 reproduction/     Reported aggregate results
 scripts/          Direct Python entry points
@@ -71,7 +70,7 @@ isars select \
   --output outputs/selected_intervals.json
 ```
 
-The output contains the matched-budget selections used in the paper:
+The output contains the matched-budget selections used in the reported experiments:
 
 - `target_centered`
 - `highest_score_window`
